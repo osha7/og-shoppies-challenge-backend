@@ -1,0 +1,2 @@
+class NominatedMovie < ApplicationRecord
+end
