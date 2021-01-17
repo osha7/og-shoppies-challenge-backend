@@ -26,9 +26,14 @@ class NominatedMoviesController < ApplicationController
     end
 
     def destroy
-        nominated_movie = NominatedMovie.find_by(imdbID: params["imdbID"])
-        nominated_movie.destroy
-        render json: {}, status: 200
+        # byebug
+        nominated_movie = NominatedMovie.find_by(id: params["id"])
+        if nominated_movie.destroy
+        # render json: {}, status: 200
+            render status: :ok, json: { notice: 'Successfully deleted task.' }
+        else
+            render status: :unprocessable_entity, json: { error: 'Unable to delete nomination at this time.' }
+        end
     end
 
     private
