@@ -30,7 +30,7 @@ class NominatedMoviesController < ApplicationController
         nominated_movie = NominatedMovie.find_by(id: params["id"])
         if nominated_movie.destroy
         # render json: {}, status: 200
-            render status: :ok, json: { notice: 'Successfully deleted task.' }
+            render status: :ok, json: { notice: 'Successfully deleted nomination.' }
         else
             render status: :unprocessable_entity, json: { error: 'Unable to delete nomination at this time.' }
         end
