@@ -2,6 +2,9 @@
 
 # Osha Groetz - SHOPPIES MOVIE API
 
+Visit Live Site: [The Shoppies](https://og-shoppies-challenge-frontend.vercel.app/)
+Heroku Hosted Backend: [Heroku](https://og-shoppies-challenge-backend.herokuapp.com/)
+
 Search movies with async Fetch requests to [OMDb API](http://www.omdbapi.com/)  
 Nominate up to 5 movies while saving data to a backend server using a PostgreSQL database
 
@@ -54,18 +57,18 @@ https://github.com/osha7/og-shoppies-challenge-backend
 
 # Landing Page Search Bar:
 
-![MainPage]()
+![MainPage](https://i.imgur.com/Z9Ar5bO.png)
 
 # Search Results:
 
-![Search Bar]()
+![Search Bar](https://i.imgur.com/wMNyCvK.png)
 
 # Movie Info Page:
 
-![Search Results]()
+![Search Results](https://i.imgur.com/Radfq73.png)
 
 # Nominations Page:
 
-![Nominations]()
+![Nominations](https://i.imgur.com/THyKnc5.png)
 
 ##### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
